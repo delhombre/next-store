@@ -6,6 +6,7 @@ import {
 	Toolbar,
 	Typography,
 } from "@material-ui/core";
+import { Menu } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -33,7 +34,7 @@ const Nav = () => {
 							color="inherit"
 							aria-label="menu"
 						>
-							abcdefg
+							<Menu />
 						</IconButton>
 						<Typography variant="h6" className={classes.title}>
 							News
